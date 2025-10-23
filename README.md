@@ -1,16 +1,21 @@
-# React + Vite
+# Calculadora de IMC - React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um projeto desenvolvido como parte do módulo 28 do curso, utilizando React e Vite. A aplicação permite calcular o Índice de Massa Corporal (IMC) com base no peso e altura fornecidos pelo usuário, exibindo a classificação e informações adicionais.
 
-Currently, two official plugins are available:
+## Funcionalidades
+- Cálculo do IMC com base em peso (kg) e altura (m).
+- Classificação do IMC (ex.: Normal, Sobrepeso, Obesidade).
+- Histórico de últimos cálculos.
+- Interface amigável com design responsivo.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologias Utilizadas
+- **React**: Biblioteca para construção da interface.
+- **Vite**: Ferramenta de build e desenvolvimento.
+- **TypeScript**: Para tipagem estática.
+- **CSS**: Estilização personalizada.
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Como Rodar o Projeto
+1. **Clone o repositório**:
+   ```bash
+   git clone https://github.com/JulianoMozer/modulo_28-react.git
+   cd modulo_28-react
